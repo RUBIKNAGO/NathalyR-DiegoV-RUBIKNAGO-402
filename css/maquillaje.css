@@ -1,0 +1,85 @@
+hmtl, body{
+    
+    height: 100%;
+    background: skyblue;
+
+}
+iframe{
+    border:0;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header image{
+    display: block;
+    background: lightpink;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+header{
+    background: url("img/Texturas_0963.jpg");
+     border:none;
+}
+header h1{
+    margin-left: 200px;
+    text-align: center;
+    font-family: "Forte";
+   
+    
+    font-size: 2.5em;
+    text-shadow: #DDD 0px 2px 1px,
+        #DDD 2px 4px 2px,
+        #DDD 4px 6px 3px,
+        #DDD 6px 2px 4px;
+    -webkit-transition: all 1s ease-in-out;
+    border:none;
+    
+}
+header h1:hover{
+    color: black;
+    font-size: 2.2em;
+    text-shadow: #DDD 0px 2px 1px,
+        #DDD 2px 4px 2px,
+        #DDD 4px 6px 3px,
+        #DDD 6px 2px 4px;
+    -webkit-transform: rotate(7deg) rotateX(30deg) skewX(-5deg);
+    border:none;
+}
+
+nav{
+    float:left; 
+     width: 19%;
+     height: 70%;
+ background: url("img/Texturas_1350.jpg");
+    
+}
+
+section{
+    float:left;
+    height: 70%;
+    width: 81%;
+    /*background: green;*/
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+  
+   background: url("img/Texturas_1350.jpg");
+}
+
+footer{
+    height: 10%;
+   
+    margin-top: 40px;
+   height: 100px;
+    padding: 5px 0px;
+    clear: both;
+   /* background: aquamarine;*/
+    text-align: center;
+     background: url("img/Texturas_1350.jpg");
+}
+
